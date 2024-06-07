@@ -1,0 +1,36 @@
+.footer{
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(180deg,#BED7DC,#e1ffea22  60%);
+  padding-bottom: 100px;
+}
+.footer img{
+  max-width: 100px;
+  border: none;
+  box-shadow: 1px 1px 1px -1px black;
+  border-radius: 75px;
+}
+.lists ul{
+  list-style-type: none;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+.lists ul li{
+  cursor: pointer;
+}
+.policy{
+  display: flex;
+  gap: 10px;
+}
+.logo{
+  max-width: 100px;
+  cursor: pointer;
+}
+.contact{
+  display: flex;
+  gap:30px;
+}

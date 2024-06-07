@@ -1,0 +1,36 @@
+.cartitems{
+  display: flex;
+  align-items: flex-start;
+  justify-content:flex-start;
+  flex-direction: row;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  width: 950px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.cartitems-format-main{
+  display: grid;
+  grid-template-columns: 4.5fr 3fr 2.5fr 3fr 2.5fr 1fr;
+
+}
+.special{
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  margin-top: -10px;
+}
+.cartitems-format{
+display: flex;
+ align-items: center;
+ gap: 120px;
+}
+.cartitems-format img {
+  width: 100px;
+  height:auto;
+  
+}

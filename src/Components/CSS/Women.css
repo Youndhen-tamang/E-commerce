@@ -1,0 +1,13 @@
+.women-wears{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1px;
+  padding:0px 10px;
+}
+.women{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 70px;
+}

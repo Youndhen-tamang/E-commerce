@@ -1,0 +1,34 @@
+.item{
+  display: flex;
+  flex-direction: column;
+  width:280px;
+  margin: 20px;
+  align-items: center;
+  border:2px solid #135D66;
+}
+.item img{
+  width:100%;
+  height: 400px;
+}
+.item p{
+  font-size: 20px;
+}
+.prices{
+  display: flex;
+  gap:130px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.newprice{
+  font-size: 18px;
+}
+.oldprice{
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.item:hover{
+  transform: scale(1.05);
+}
+.title{
+  margin-left: 10px;
+}

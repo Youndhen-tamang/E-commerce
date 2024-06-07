@@ -1,0 +1,33 @@
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 60px;
+  background:#BED7DC;
+}
+.input-box{
+  display: flex;
+}
+.input-box input{
+  width: 500px;
+  font-size: 24px;
+   padding: 10px 20px ;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+}
+.input-box button{
+  font-size: 24px;
+  padding: 15px 25px ;
+  border-radius: 5px;
+  color: white;
+  background: black;
+  border: none;
+  font-weight: 600;
+  margin-left: -10px;
+}
+.input-box button:hover{
+  opacity: 0.8;
+}
